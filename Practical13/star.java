@@ -7,8 +7,8 @@ class star{
         int num = scanner.nextInt();
 
         for(int i=1; i <= 10; i++){
-            // System.out.println(num + " * " + i  +" = "+i * num);
-            System.out.println(i * num);
+            // System.out.println(i * num);
+            System.out.println(num + " * " + i  +" = "+i * num);
         }
     }
 }
